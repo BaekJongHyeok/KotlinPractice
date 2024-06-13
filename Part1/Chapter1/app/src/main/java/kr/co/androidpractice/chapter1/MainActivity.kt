@@ -47,7 +47,7 @@ fun NumberCounter() {
     var number by remember { mutableIntStateOf(0) }
 
     Column {
-        Column(
+        Column(Mo
             modifier = Modifier
                 .fillMaxSize()
                 .padding(16.dp),
